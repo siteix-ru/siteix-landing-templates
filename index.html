@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Лендинги Siteix — открытые HTML-шаблоны</title>
+    <meta name="description" content="Открытые HTML-шаблоны лендингов для услуг, ремонта сайтов, поддержки и партнёрской программы." />
+    <style>
+      :root { color-scheme: light; --ink:#17251f; --muted:#56635b; --line:#dfe4dc; --bg:#f5f2ea; --card:#fff; --accent:#173e30; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+      .wrap { width:min(1120px, calc(100% - 32px)); margin:0 auto; }
+      header { padding:64px 0 32px; }
+      h1 { max-width:780px; margin:0 0 14px; font-size:clamp(34px,6vw,64px); line-height:1.02; letter-spacing:-.04em; }
+      .lead { max-width:680px; margin:0; color:var(--muted); font-size:18px; }
+      .links { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+      .links a, .card a { color:var(--accent); }
+      .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; padding:18px 0 72px; }
+      .card { overflow:hidden; border:1px solid var(--line); border-radius:18px; background:var(--card); box-shadow:0 12px 40px rgba(20,40,30,.06); }
+      .card img { display:block; width:100%; aspect-ratio:16/10; object-fit:cover; background:#dfe7f5; }
+      .card__body { padding:18px 20px 22px; }
+      .card h2 { margin:0 0 6px; font-size:20px; }
+      .card p { margin:0 0 12px; color:var(--muted); }
+      .card a { font-weight:700; text-decoration-thickness:2px; text-underline-offset:3px; }
+      footer { padding:0 0 48px; color:var(--muted); font-size:13px; }
+      @media(max-width:720px){ .grid{grid-template-columns:1fr;} header{padding-top:44px;} }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <p class="kicker">Siteix · открытые шаблоны</p>
+        <h1>Лендинги, которые можно взять и переделать под себя</h1>
+        <p class="lead">10 отдельных HTML-страниц: шесть отраслевых лендингов и четыре воронки. Без сборщика, с адаптивной вёрсткой, формами и описанием структуры.</p>
+        <div class="links">
+          <a href="https://github.com/siteix-ru/siteix-landing-templates">Исходники на GitHub</a>
+          <a href="uslugi/">Отраслевые лендинги</a>
+          <a href="funnels/remont-saitov/">Ремонт сайтов</a>
+        </div>
+      </header>
+      <main class="grid">
+        <article class="card"><img src="previews/remont-saitov.png" alt="Превью лендинга ремонта сайтов" /><div class="card__body"><h2>Ремонт и доработка</h2><p>Аварийная воронка для существующих сайтов.</p><a href="funnels/remont-saitov/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/podderzhka-saitov.png" alt="Превью лендинга поддержки сайтов" /><div class="card__body"><h2>Поддержка сайтов</h2><p>Пакеты сопровождения, SLA и пакет часов.</p><a href="funnels/podderzhka-saitov/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/proverka-sajta.png" alt="Превью лендинга проверки сайта" /><div class="card__body"><h2>Проверка сайта</h2><p>Лид-магнит с коротким отчётом.</p><a href="funnels/proverka-sajta/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/partneram.png" alt="Превью партнёрской страницы" /><div class="card__body"><h2>Партнёрам</h2><p>White-label воронка для агентств.</p><a href="funnels/partneram/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/fotografam.png" alt="Превью лендинга для фотографа" /><div class="card__body"><h2>Фотографам</h2><p>Отраслевой лендинг с портфолио и заявкой.</p><a href="uslugi/fotografam/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/kosmetologam.png" alt="Превью лендинга для косметолога" /><div class="card__body"><h2>Косметологам</h2><p>Услуги, результаты и запись.</p><a href="uslugi/kosmetologam/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/parikmaheram.png" alt="Превью лендинга для парикмахера" /><div class="card__body"><h2>Парикмахерам</h2><p>Услуги, портфолио и запись.</p><a href="uslugi/parikmaheram/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/barberam.png" alt="Превью лендинга для барбера" /><div class="card__body"><h2>Барберам</h2><p>Барбершоп, команда и запись.</p><a href="uslugi/barberam/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/nogtevym-masteram.png" alt="Превью лендинга для ногтевого мастера" /><div class="card__body"><h2>Ногтевым мастерам</h2><p>Работы, цены и запись.</p><a href="uslugi/nogtevym-masteram/">Открыть шаблон</a></div></article>
+        <article class="card"><img src="previews/vizazhistam.png" alt="Превью лендинга для визажиста" /><div class="card__body"><h2>Визажистам</h2><p>Портфолио и заявки.</p><a href="uslugi/vizazhistam/">Открыть шаблон</a></div></article>
+      </main>
+      <footer>Код — MIT. Фотографии — по лицензиям Wikimedia Commons, список в PHOTO-CREDITS.md. Перед публикацией замените бренд, контакты, тексты и политику.</footer>
+    </div>
+  </body>
+</html>

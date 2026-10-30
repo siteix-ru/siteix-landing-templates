@@ -1,0 +1,214 @@
+@import url('../uslugi/style.css');
+
+.funnel-page .funnel-hero {
+  padding: 72px 0 64px;
+  background:
+    radial-gradient(circle at 82% 12%, rgba(196, 103, 63, 0.22), transparent 34%),
+    linear-gradient(145deg, #081712 0%, #102b22 58%, #173e30 100%);
+  color: #f7f2e8;
+}
+
+.funnel-page .funnel-hero__inner {
+  max-width: 900px;
+}
+
+.funnel-page .funnel-hero .kicker {
+  color: #e3a17f;
+}
+
+.funnel-page .funnel-hero h1 {
+  max-width: 880px;
+  margin: 12px 0 18px;
+  font-size: clamp(34px, 5.4vw, 64px);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+
+.funnel-page .funnel-hero__sub {
+  max-width: 720px;
+  margin: 0;
+  color: rgba(247, 242, 232, 0.78);
+  font-size: clamp(16px, 1.8vw, 20px);
+  line-height: 1.55;
+}
+
+.funnel-page .funnel-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.funnel-page .funnel-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+  margin: 38px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.funnel-page .funnel-stats li {
+  min-width: 130px;
+}
+
+.funnel-page .funnel-stats strong {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.funnel-page .funnel-stats span {
+  display: block;
+  margin-top: 2px;
+  color: rgba(247, 242, 232, 0.58);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+
+.funnel-page .funnel-pains {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.funnel-page .funnel-pain {
+  padding: 20px 22px;
+  border: 1px solid #e2e4dc;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.funnel-page .funnel-pain span {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: #f3e5dc;
+  color: #96482a;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.funnel-page .funnel-pain p {
+  margin: 0;
+  color: #3d4942;
+  line-height: 1.55;
+}
+
+.funnel-page .funnel-features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.funnel-page .funnel-feature {
+  padding: 22px;
+  border: 1px solid rgba(247, 242, 232, 0.16);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.funnel-page .funnel-feature h3 {
+  margin: 0 0 8px;
+  color: #f7f2e8;
+  font-size: 19px;
+}
+
+.funnel-page .funnel-feature p {
+  margin: 0;
+  color: rgba(247, 242, 232, 0.68);
+  line-height: 1.6;
+}
+
+.funnel-page .funnel-packages {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+
+.funnel-page .funnel-package {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid #e2e4dc;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.funnel-page .funnel-package--featured {
+  border-color: #c4673f;
+  box-shadow: 0 14px 40px rgba(196, 103, 63, 0.12);
+}
+
+.funnel-page .funnel-package h3 {
+  margin: 0 0 8px;
+  font-size: 19px;
+}
+
+.funnel-page .funnel-package strong {
+  display: block;
+  color: #173e30;
+  font-size: 28px;
+  line-height: 1.15;
+}
+
+.funnel-page .funnel-package small {
+  display: block;
+  margin-top: 4px;
+  color: #7a857d;
+  font-size: 12px;
+}
+
+.funnel-page .funnel-package p {
+  margin: 14px 0;
+  color: #556158;
+  line-height: 1.55;
+}
+
+.funnel-page .funnel-package ul {
+  margin: 0 0 20px;
+  padding-left: 18px;
+  color: #3d4942;
+  line-height: 1.7;
+}
+
+.funnel-page .funnel-package .btn {
+  margin-top: auto;
+}
+
+.funnel-page .funnel-faq details {
+  padding: 18px 0;
+  border-bottom: 1px solid #e2e4dc;
+}
+
+.funnel-page .funnel-faq summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.funnel-page .funnel-faq details p {
+  margin: 10px 0 0;
+  color: #556158;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .funnel-page .funnel-packages {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .funnel-page .funnel-hero {
+    padding: 48px 0 44px;
+  }
+
+  .funnel-page .funnel-pains,
+  .funnel-page .funnel-features {
+    grid-template-columns: 1fr;
+  }
+}
