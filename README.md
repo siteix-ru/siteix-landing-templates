@@ -28,6 +28,28 @@
 | Проверка сайта | Входная воронка с мини-аудитом | `funnels/proverka-sajta/` |
 | Партнёрам | Агентствам и white-label подрядчикам | `funnels/partneram/` |
 
+## Превью
+
+| Ремонт сайтов | Поддержка сайтов |
+|---|---|
+| [![Ремонт сайтов](previews/remont-saitov.png)](funnels/remont-saitov/) | [![Поддержка сайтов](previews/podderzhka-saitov.png)](funnels/podderzhka-saitov/) |
+
+| Проверка сайта | Партнёрам |
+|---|---|
+| [![Проверка сайта](previews/proverka-sajta.png)](funnels/proverka-sajta/) | [![Партнёрам](previews/partneram.png)](funnels/partneram/) |
+
+| Фотографам | Косметологам |
+|---|---|
+| [![Фотографам](previews/fotografam.png)](uslugi/fotografam/) | [![Косметологам](previews/kosmetologam.png)](uslugi/kosmetologam/) |
+
+| Парикмахерам | Барберам |
+|---|---|
+| [![Парикмахерам](previews/parikmaheram.png)](uslugi/parikmaheram/) | [![Барберам](previews/barberam.png)](uslugi/barberam/) |
+
+| Ногтевым мастерам | Визажистам |
+|---|---|
+| [![Ногтевым мастерам](previews/nogtevym-masteram.png)](uslugi/nogtevym-masteram/) | [![Визажистам](previews/vizazhistam.png)](uslugi/vizazhistam/) |
+
 ## Как использовать
 
 1. Скачайте нужную папку или весь репозиторий.
